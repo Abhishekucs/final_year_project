@@ -1,0 +1,13 @@
+.imgContainer {
+    height: 50vh;
+    overflow: hidden;
+}
+
+.Images {
+    height: 100%;
+    width: 100%;
+}
+
+.Images > img {
+    object-fit: fill;
+}
