@@ -7,7 +7,7 @@
 .container_button {
     width: 12vw;
     height: 30vh;
-    background-color: cornflowerblue;
+    background-color: #6260AB;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,7 +20,7 @@ button {
     border-radius: 20px;
     outline: none;
     cursor: pointer;
-    background-color: darkblue;
+    background-color: #1C18BA;
     color: white;
     font-weight: bold;
 }
