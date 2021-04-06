@@ -4,20 +4,11 @@ import Header from "./Header";
 import ImgSlider from "./ImgSlider";
 
 function HomePage(props) {
-  const [data, setData] = useState(null);
-
-  useEffect(() => {
-    fetch("/api")
-      .then((res) => res.json())
-      .then((data) => setData(data.message));
-  }, []);
-
   return (
     <div>
       <Header />
       <ImgSlider />
       <Button />
-      <p>{!data ? "Loading..." : data}</p>
       <div className="footer">
         <div className="logo_footer">
           <span>LOGO</span>
