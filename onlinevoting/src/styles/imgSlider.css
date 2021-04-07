@@ -1,13 +1,50 @@
-.imgContainer {
-    height: 50vh;
-    overflow: hidden;
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.ImgSlider {
+    width: 50%;
+    margin: 10rem auto;
+    height: 400px;
 }
 
-.Images {
-    height: 100%;
-    width: 100%;
+.slide img {
+  width: 30rem;
+  margin: 0 auto;
 }
 
-.Images > img {
-    object-fit: fill;
+.slide {
+  transform: scale(0.2);
+  transition: transform 300ms;
+  opacity: 0.5;
+}
+
+.activeSlide {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.arrow {
+  background-color: #fff;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.arrow svg {
+  transition: color 300ms;
+}
+
+.arrow svg:hover {
+  color: #6260AB;
+}
+
+.next {
+  right: -50%;
+  top: 50%;
+}
+
+.prev {
+  left: -50%;
+  top: 50%;
+
 }

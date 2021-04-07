@@ -22,16 +22,22 @@ code {
 
 .footer {
   background-color: #6260AB;
-  height: 20vh;
-  padding: 50px;
+  height: 5vh;
+  padding: 30px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   color: white;
-  font-weight: bold;
+  font-weight: 10;
 }
 
 .content_footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  
+}
+@font-face {
+  font-family: "Fredoka One";
+  src: local("Fredoka One"),
+    url("./assests/fonts/FredokaOne-Regular.ttf") format("woff");
 }

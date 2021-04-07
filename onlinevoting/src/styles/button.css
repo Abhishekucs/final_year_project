@@ -1,17 +1,17 @@
 .buttonContainer {
-    height: 50vh;
+    height: 100vh;
    display: flex;
    justify-content: space-around;
    align-items: center;
 }
 .container_button {
-    width: 12vw;
-    height: 30vh;
+    width: 20vw;
+    height: 40vh;
     background-color: #6260AB;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 
 button {
@@ -23,4 +23,5 @@ button {
     background-color: #1C18BA;
     color: white;
     font-weight: bold;
+    font-family: 'Fredoka One';
 }

@@ -1,9 +1,10 @@
 .container {
-    height: 10vh;
+    height: 15vh;
     padding: 0px 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #6260ab;
 }
 
 .Logo {
