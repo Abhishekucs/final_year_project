@@ -10,9 +10,6 @@ function HomePage(props) {
       <ImgSlider />
       <Button />
       <div className="footer">
-        <div className="logo_footer">
-          <span>LOGO</span>
-        </div>
         <div className="content_footer">
           <div className="content">
             <span>Terms of use</span>
