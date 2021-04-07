@@ -1,12 +1,12 @@
 import "../styles/imgSlider.css";
 import { useState } from "react";
 import Slider from "react-slick";
-import image1 from "../assests/images/img1.jpg";
-import image2 from "../assests/images/img2.jpg";
-import image3 from "../assests/images/img3.jpg";
+import image1 from "../assests/images/1.png";
+import image2 from "../assests/images/2.png";
+import image3 from "../assests/images/3.png";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 
-const images = [image1 , image2,image3];
+const images = [image1 , image2, image3];
 
 function ImgSlider() {
   const NextArrow = ({ onClick }) => {

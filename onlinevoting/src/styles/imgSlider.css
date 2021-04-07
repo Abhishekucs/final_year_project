@@ -2,14 +2,13 @@
 @import "~slick-carousel/slick/slick-theme.css";
 
 .ImgSlider {
-  width: 50%;
-  margin: 5rem auto;
-  height: 80px;
-  position: relative;
+    width: 50%;
+    margin: 10rem auto;
+    height: 400px;
 }
 
 .slide img {
-  width: 20rem;
+  width: 30rem;
   margin: 0 auto;
 }
 
@@ -40,11 +39,12 @@
 }
 
 .next {
-  right: 0%;
+  right: -50%;
   top: 50%;
 }
 
 .prev {
-  left: 0%;
+  left: -50%;
   top: 50%;
+
 }
