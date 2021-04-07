@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/Abhishekucs/final_year_project#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "icons": "^1.0.0",
+    "jquery": "^3.6.0",
+    "react": "^17.0.2"
   }
 }
