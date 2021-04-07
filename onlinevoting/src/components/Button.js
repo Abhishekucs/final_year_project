@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 function Button(props) {
   const [data, setData] = useState(null);
@@ -15,7 +16,9 @@ function Button(props) {
         <button onClick={() => alert(data)}>Login</button>
       </div>
       <div className="container_button">
-        <button>Register</button>
+        <button>
+          <Link to="/register">Register</Link>
+        </button>
       </div>
     </div>
   );

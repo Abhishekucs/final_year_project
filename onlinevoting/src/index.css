@@ -1,6 +1,7 @@
 @import "./styles/header.css";
 @import "./styles/imgSlider.css";
 @import "./styles/button.css";
+@import "./styles/register.css";
 
 * {
   margin: 0;

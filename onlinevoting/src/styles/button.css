@@ -25,3 +25,8 @@ button {
     font-weight: bold;
     font-family: 'Fredoka One';
 }
+
+button a{
+    text-decoration: none;
+    color: white;
+}

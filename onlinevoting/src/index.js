@@ -2,9 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import HomePage from "./components/HomePage";
+import RouterFile from "./components/RouterFile";
 
-ReactDOM.render(<HomePage />, document.getElementById("root"));
+ReactDOM.render(<RouterFile />, document.getElementById("root"));
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
