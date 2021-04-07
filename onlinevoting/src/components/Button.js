@@ -16,9 +16,9 @@ function Button(props) {
         <button onClick={() => alert(data)}>Login</button>
       </div>
       <div className="container_button">
-        <button>
-          <Link to="/register">Register</Link>
-        </button>
+        <Link to="/register">
+          <button>Register</button>
+        </Link>
       </div>
     </div>
   );
