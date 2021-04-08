@@ -11,7 +11,7 @@ function Register(props) {
         <div className="text">
           <span>
             One step away to <br />
-            cast your vote
+            cast your vote 
           </span>
         </div>
       </div>
