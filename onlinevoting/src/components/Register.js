@@ -49,7 +49,9 @@ function Register(props) {
               <input type="password"></input>
             </form>
             <div className="register_button">
-              <button className="register_button_one">REGISTER</button>
+              <button className="register_button_one" type="submit">
+                REGISTER
+              </button>
             </div>
           </div>
           <div className="info">
